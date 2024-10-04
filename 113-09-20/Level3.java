@@ -1,5 +1,3 @@
-package cc.openhome;
-
 public class Level3 {
     public static void main(String[] args) {
         var score = 88;
