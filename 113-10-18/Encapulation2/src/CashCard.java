@@ -23,7 +23,7 @@ class CashCard {
                     this.balance -= money;
                 }
                 else{
-                    System.out.println("儲值金額為負，來亂的!");
+                    System.out.println("餘額不足，可憐阿!");
                 }
             }
             else{

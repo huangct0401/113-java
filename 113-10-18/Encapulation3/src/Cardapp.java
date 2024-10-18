@@ -1,4 +1,6 @@
+package edu.shu.main;
 import java.util.Scanner;
+import edu.shu.Chuck.*;
 
 public class CardApp {
     public static void main(String[] args) {
@@ -13,7 +15,8 @@ public class CardApp {
         for(CashCard card : cards) {
             System.out.printf("為(%s, %d, %d)儲值",
                     card.number, card.balance, card.bonus);
-            card.store(input.nextInt());
+            //card.store(input.nextInt());
+            card.balance += input.nextInt();
             System.out.printf("明細(%s, %d, %d)%n",
                     card.number, card.balance, card.bonus);
         }
